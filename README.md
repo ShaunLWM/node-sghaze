@@ -1,7 +1,12 @@
 #node-sghaze
 
 [![NPM](https://nodei.co/npm/node-sghaze.png)](https://nodei.co/npm/node-sghaze/)
+
+[![npm version](https://img.shields.io/npm/v/node-sghaze.svg)](https://npmjs.com/package/node-sghaze)
+[![npm downloads](https://img.shields.io/npm/dm/node-sghaze.svg)](https://npmjs.com/package/node-sghaze)
+
 ---
+
 A simple parser for Singapore's NEA [PSI level](http://www.nea.gov.sg/anti-pollution-radiation-protection/air-pollution-control/psi/psi-readings-over-the-last-24-hours) API.
 
 ### Requirement

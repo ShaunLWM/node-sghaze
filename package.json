@@ -1,6 +1,6 @@
 {
   "name": "node-sghaze",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Singapore PSI haze level parser from NEA's website",
   "main": "index.js",
   "scripts": {

@@ -1,22 +1,3 @@
-#node-sghaze
-
-[![NPM](https://nodei.co/npm/node-sghaze.png)](https://nodei.co/npm/node-sghaze/)
----
-A simple parser for Singapore's NEA [PSI level](http://www.nea.gov.sg/anti-pollution-radiation-protection/air-pollution-control/psi/psi-readings-over-the-last-24-hours) API.
-
-### Requirement
-- `node.js`
-- NEA API key from [here](https://www.nea.gov.sg/api)
-
-### Installation
-- Clone repository
-- Install with `npm install`
-- Replace key in `example.js`
-- `node example.js`
-
----
-
-### License
 The MIT License (MIT)
 
 Copyright (c) 2015 Shaun

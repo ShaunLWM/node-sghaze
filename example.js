@@ -7,3 +7,11 @@ haze.retrieveData('INSERT KEY HERE', function(error, data) {
         console.log(error);
     }
 });
+
+haze.retrieveDataLegacy(function(error, data) {
+    if (!error) {
+        console.log(data);
+    } else {
+        console.log(error);
+    }
+});

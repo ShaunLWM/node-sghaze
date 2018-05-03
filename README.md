@@ -1,5 +1,7 @@
 #node-sghaze
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shaunidiot/node-sghaze.svg)](https://greenkeeper.io/)
+
 [![NPM](https://nodei.co/npm/node-sghaze.png)](https://nodei.co/npm/node-sghaze/)
 
 [![npm version](https://img.shields.io/npm/v/node-sghaze.svg)](https://npmjs.com/package/node-sghaze)

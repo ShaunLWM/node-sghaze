@@ -7,24 +7,35 @@
 
 ---
 
-A simple parser for Singapore's NEA [PSI level](http://www.nea.gov.sg/anti-pollution-radiation-protection/air-pollution-control/psi/psi-readings-over-the-last-24-hours) API.
+A simple parser for Singapore's NEA [PSI level](https://www.haze.gov.sg/) API.
 
 ### Requirement
-- `node.js`
-- NEA API key from [here](https://www.nea.gov.sg/api)
+- NodeJS
 
 ### Installation
-- Clone repository
-- Install with `npm install`
-- Replace key in `example.js`
-- `node example.js`
+```
+npm install node-sghaze
+or
+yarn add node-sghaze
+```
 
+### Usage
+```
+const haze = require('node-sghaze');
+haze((error, results) => {
+    if (error) {
+        return console.error(error);
+    }
+
+    console.log(results);
+})
+```
 ---
 
 ### License
 The MIT License (MIT)
 
-Copyright (c) 2015 Shaun
+Copyright (c) 2018 Shaun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

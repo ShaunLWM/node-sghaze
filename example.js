@@ -1,17 +1,8 @@
-var haze = require('./index.js');
-
-haze.retrieveData('INSERT KEY HERE', function(error, data) {
-    if (!error) {
-        console.log(data);
-    } else {
-        console.log(error);
+const haze = require('./index.js'); // replace with node-sghaze
+haze((error, results) => {
+    if (error) {
+        return console.error(error);
     }
-});
 
-haze.retrieveDataLegacy(function(error, data) {
-    if (!error) {
-        console.log(data);
-    } else {
-        console.log(error);
-    }
-});
+    console.log(results);
+})

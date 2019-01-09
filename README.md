@@ -1,4 +1,4 @@
-#node-sghaze
+# node-sghaze
 
 [![NPM](https://nodei.co/npm/node-sghaze.png)](https://nodei.co/npm/node-sghaze/)
 
